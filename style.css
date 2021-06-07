@@ -100,6 +100,7 @@ div.c-white span{
 .card_btn{
     padding: 30px;
    text-align: center;
+   display: flex;
   
 }
 
@@ -115,7 +116,7 @@ div.c-white span{
     color: #000000;
     background: #48cfad;
 	text-decoration: none;
-	margin: 0 2px;
+	margin: 0 10px;
 }
 .card_btn a:hover{
 	background: #f3f5f4;
