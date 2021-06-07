@@ -1,0 +1,142 @@
+.card{
+    
+    margin: 5px;
+    display: block;
+    width: 300px;
+    
+    border-radius: 5px;
+}
+
+.card_img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.card_img:hover{
+	background: #44c28d;
+}
+
+.card_img img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.card_content{
+    padding: 5px;
+    background: rgb(226, 222, 222);
+}
+
+.card_text_title{
+    display: flex;
+    padding:10px;	
+    justify-content: space-between;
+    
+}
+
+.card_text_title .product_price{
+    float:right;
+	color:#48cfad;
+	font-size:22px;
+	font-weight:600;
+	margin: 10px;
+
+}
+
+.card_text_title .product_name{
+    font-size:22px;
+	color:#393c45;	
+    margin: 10px;
+    
+}
+
+.card_text_texto{
+    margin: 10px;
+    font-size:16px;
+	color:#b1b1b3;	
+	padding:2px 0 20px 0;
+
+}
+
+.product-options{
+	padding:2px;
+	width: auto;
+}
+.product-options strong{
+	font-weight:700;
+	color:#393c45;
+	font-size:14px;
+}
+.product-options span{	
+	color:#969699;
+	font-size:14px;
+	display:block;
+	
+
+}
+
+div.colors div{
+	margin-top:3px;
+	width:15px; 
+	height:15px; 	
+	margin-right:5px;
+	float:left;
+}
+div.colors div span{
+	width:15px; 
+	height:15px; 
+	display:block;
+	border-radius:50%;
+}
+div.c-blue span{background:#6e8cd5;}
+div.c-red span{background:#f56060;}
+div.c-green span{background:#44c28d;}
+div.c-white span{
+	background:#fff;
+	width:14px;
+	height:14px; 
+	border:1px solid #e8e9eb;
+}
+
+.card_btn{
+    padding: 30px;
+   text-align: center;
+  
+}
+
+.card_btn2{
+    padding: 30px;
+   background: #44c28d;
+   display: block;
+  
+}
+
+.card_btn a{
+    padding: 10px;
+    color: #000000;
+    background: #48cfad;
+	text-decoration: none;
+	margin: 0 2px;
+}
+.card_btn a:hover{
+	background: #f3f5f4;
+	color: #000000;
+	
+}
+
+.more{
+	display: flex;
+	justify-content: center;}
+.more a{
+	padding: 10px;
+	background: #48cfad;
+	color: #000000;
+	width: 100px;
+	text-align: center;
+	
+}
+.more a:hover{
+	background: #f3f5f4;
+	color: #000000;
+	
+}
+

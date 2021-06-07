@@ -1,0 +1,27 @@
+.present{
+    display: grid;
+    grid-template-columns: 30em auto;
+    margin: 100px;
+    background: #fff;
+
+}
+
+.present_logo{
+    padding: 20px;
+}
+
+.present_logo img{
+    width: 400px;
+}
+
+.redes a{
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(248, 41, 220);
+    
+}
+
+.redes a:hover{
+    color: #000000;
+   
+}

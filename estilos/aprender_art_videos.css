@@ -1,0 +1,117 @@
+.title{
+    margin-top: 40px;
+    background: #EDBABA;
+    width: 100%;
+}
+
+.title_text{
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+
+.directory{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    width: auto;
+    
+}
+
+.directory_content{
+    margin: 40px;
+}
+
+
+.content_card{
+    width: 500px;
+    height: 400;
+    padding: 10px;
+    background: #fff;
+
+
+}
+.tarjeta_img{
+width: 500px;
+height: 200px;
+overflow: hidden;
+}
+.tarjeta_img img{
+    width: 100%;
+}
+.tarjeta_content{
+    margin: 10px;
+}
+.tarjeta_boton {
+    padding: 20px;
+    text-align: center;
+}
+.tarjeta_boton a{
+    background: rgb(5, 193, 240);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(8, 1, 1, 0.2);
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+
+/*  modal */
+
+
+
+
+
+
+
+  .modal-contenido{
+    background-color:rgb(255, 255, 255);
+    width:1200px;
+    height: 500px;
+    padding: 10px 20px;
+    margin:40px auto;
+    position: relative;
+  }
+
+  .modal-contenido a{
+      padding: 20px;
+      text-align: center;
+      background: #000000;
+      color: #fff;
+      border-radius: 60px;
+  }
+
+  .modal_contenido_cuerpo{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 10px ;
+  }
+
+  .cuerpo_text{
+      height: 450px;
+      overflow: scroll;
+  }
+  .modal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #miModal:target{
+    opacity:1;
+    pointer-events:auto;
+  }
